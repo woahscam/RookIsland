@@ -2259,7 +2259,7 @@ public final class WorldPacketsDecoder extends Decoder {
 				return;
 			}
 			int effects = (colorEffect << 8) | (moveEffect & 0xff) & ~0x8000;
-			archiveMessage(player, message, chatType);
+//			archiveMessage(player, message, chatType);
 			if (chatType == 1)
 				player.sendFriendsChannelMessage(new String(message));
 			else if (chatType == 2)

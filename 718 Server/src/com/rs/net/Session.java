@@ -36,7 +36,7 @@ public class Session {
 			return;
 		}
 		setDecoder(0);
-		logIp(this);
+//		logIp(this);
 	}
 
 	public void logIp(Session session) {

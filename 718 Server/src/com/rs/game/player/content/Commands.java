@@ -55,15 +55,15 @@ public final class Commands {
 		if (cmd.length == 0)
 			return false;
 		if (player.getRights() >= 2 && (processAdminCommands(player, cmd, console, clientCommand))) {
-			archiveLogs(player, cmd);
+//			archiveLogs(player, cmd);
 			return true;
 		}
 		if (player.getRights() >= 1 && (processModCommand(player, cmd, console, clientCommand))) {
-			archiveLogs(player, cmd);
+//			archiveLogs(player, cmd);
 			return true;
 		}
 		if ((player.isSupporter()) && processSupportCommands(player, cmd, console, clientCommand)) {
-			archiveLogs(player, cmd);
+//			archiveLogs(player, cmd);
 			return true;
 		}
 		if (Settings.ECONOMY) {
@@ -235,7 +235,7 @@ public final class Commands {
 					data += cmd[i] + ((i == cmd.length - 1) ? "" : " ");
 				}
 				ServerMessage.filterMessage(player, Utils.fixChatMessage(data), false);
-				archiveYell(player, Utils.fixChatMessage(data));
+//				archiveYell(player, Utils.fixChatMessage(data));
 				return true;
 			case "mb":
 				if (!player.canUseCommand()) {
@@ -2472,7 +2472,7 @@ public final class Commands {
 					data += cmd[i] + ((i == cmd.length - 1) ? "" : " ");
 				}
 				ServerMessage.filterMessage(player, Utils.fixChatMessage(data), false);
-				archiveYell(player, Utils.fixChatMessage(data));
+//				archiveYell(player, Utils.fixChatMessage(data));
 				return true;
 
 			case "permban":

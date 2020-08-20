@@ -399,7 +399,7 @@ public class DuelArena extends Controler {
 			startEndingTeleport(loser);
 			sendFinishInterface(victor, loser);
 			CopyOnWriteArrayList<Item> lostItems = new CopyOnWriteArrayList<Item>();
-			archiveDuel(player, loser, victor.getLastDuelRules().getStake(), loser.getLastDuelRules().getStake());
+//			archiveDuel(player, loser, victor.getLastDuelRules().getStake(), loser.getLastDuelRules().getStake());
 			if (player.getLastDuelRules().getStake() != null) {
 				for (Item item : player.getLastDuelRules().getStake().getItems()) {
 					if (item == null)

@@ -4400,8 +4400,8 @@ public class Player extends Entity {
 	public void increaseKillCount(Player killed) {
 		if (killed == this)
 			return;
-		archiveKills(this, killed);
-		archiveDeaths(killed, this);
+//		archiveKills(this, killed);
+//		archiveDeaths(killed, this);
 		if (hasWildstalker())
 			upgradeWildstalker();
 		killStreak++;
