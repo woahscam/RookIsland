@@ -107,7 +107,7 @@ public final class Launcher {
 		GrandExchange.init();
 		LimitedGEReader.init();
 		UnlimitedGEReader.init();
-		StarterProtection.loadIPS();
+//		StarterProtection.loadIPS();
 		NPCExamines.loadPackedExamines();
 		Credentials.init();
 		WeaponTypesLoader.loadDefinitions();
