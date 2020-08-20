@@ -1,0 +1,28 @@
+//HOLLOWTREE
+65269 10 1 - 1805 3211 0 true 
+//RFD CHEST AND PORTAL
+12309 10 1 - 3083 3496 0 true
+12356 10 1 - 3083 3495 0 true
+//SPIRIT TREE
+0 10 0 - 3104 3494 0 true
+1317 10 1 - 3103 3493 0 true
+//ALTAR
+2640 10 1 - 3082 3489 0 true
+//CRYSTAL CHEST
+172 10 1 - 3091 3496 0 true
+//SPIRIT TREE
+26721 10 2 - 2388 4446 0 true
+26721 10 2 - 2480 4430 0 true
+//blocking to daemonheim
+0 10 0 - 3383 3616 0 true
+0 10 0 - 3383 3615 0 true
+0 10 0 - 3383 3614 0 true
+0 10 0 - 3383 3613 0 true
+0 10 0 - 3383 3612 0 true
+//Magic trees for lvl 34 skilling area
+1306 10 0 - 3149 3781 0 true
+1306 10 0 - 3138 3786 0 true
+1306 10 0 - 3131 3799 0 true
+1306 10 0 - 3147 3804 0 true
+
+remove this crap unless you are actually going to host fgt
